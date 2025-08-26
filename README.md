@@ -19,43 +19,47 @@ O dataset contém informações como idade média das casas, número médio de c
 
 ---
 
-Análise de Regressão Linear e Lasso
+# Análise de Regressão Linear e Lasso
 
-Este projeto apresenta a aplicação de Regressão Linear e Regressão Lasso sobre o conjunto de dados de habitação da Califórnia, com o objetivo de prever o valor médio das casas a partir de variáveis como renda média, idade da casa, número médio de quartos, entre outras.
+Este projeto apresenta a aplicação de **Regressão Linear** e **Regressão Lasso** sobre o conjunto de dados de habitação da Califórnia, com o objetivo de prever o valor médio das casas a partir de variáveis como renda média, idade da casa, número médio de quartos, entre outras.
 
-Resultados da Regressão Linear
-Variável	Coeficiente
-Intercept	-37.0233
-MedInc       0.448675
-HouseAge     0.009724
-AveRooms    -0.123323
-AveBedrms    0.783145
-Population  -0.000002
-AveOccup    -0.003526
-Latitude    -0.419792
-Longitude   -0.433708
+## Resultados da Regressão Linear
 
-MSE (Mean Squared Error): 0.5559
+| Variável     | Coeficiente   |
+|-------------|--------------|
+| Intercept   | -37.0233     |
+| MedInc      | 0.448675     |
+| HouseAge    | 0.009724     |
+| AveRooms    | -0.123323    |
+| AveBedrms   | 0.783145     |
+| Population  | -0.000002    |
+| AveOccup    | -0.003526    |
+| Latitude    | -0.419792    |
+| Longitude   | -0.433708    |
 
-R² (Coeficiente de Determinação): 0.5758
+- **MSE (Mean Squared Error):** 0.5559  
+- **R² (Coeficiente de Determinação):** 0.5758  
 
-Resultados da Regressão Lasso
-Variável	Coeficiente
-Intercept	-35.0475
-MedInc	0.4089
-HouseAge	0.0103
-AveRooms	-0.0474
-AveBedrms	0.3633
-Population	-0.0000003
-AveOccup	-0.0034
-Latitude	-0.4071
-Longitude	-0.4149
+## Resultados da Regressão Lasso
 
-MSE (Mean Squared Error): 0.5444
+| Variável     | Coeficiente   |
+|-------------|--------------|
+| Intercept   | -35.0475     |
+| MedInc      | 0.4089       |
+| HouseAge    | 0.0103       |
+| AveRooms    | -0.0474      |
+| AveBedrms   | 0.3633       |
+| Population  | -0.0000003   |
+| AveOccup    | -0.0034      |
+| Latitude    | -0.4071      |
+| Longitude   | -0.4149      |
 
-R² (Coeficiente de Determinação): 0.5845
+- **MSE (Mean Squared Error):** 0.5444  
+- **R² (Coeficiente de Determinação):** 0.5845  
 
-Através da análise dos dados, é possível notar que o modelo Lasso apresenta leve melhoria no ajuste, reduzindo coeficientes menos relevantes e controlando overfitting.
-Variáveis como MedInc, AveBedrms, Latitude e Longitude são as mais influentes no valor médio das casas.
-Ambos os modelos conseguem explicar boa parte da variabilidade dos preços, com Lasso tendo desempenho ligeiramente superior à regressão linear simples.
-Também é possível visualizar a diferença nos coeficientes das variáveis independentes no gráfico gerado no repositório
+## Análise
+
+- O modelo **Lasso** apresenta leve melhoria no ajuste, reduzindo coeficientes menos relevantes e controlando **overfitting**.  
+- Variáveis como **MedInc**, **AveBedrms**, **Latitude** e **Longitude** são as mais influentes no valor médio das casas.  
+- Ambos os modelos conseguem explicar boa parte da variabilidade dos preços, com **Lasso** apresentando desempenho ligeiramente superior à regressão linear simples.  
+- A diferença nos coeficientes das variáveis independentes pode ser visualizada no gráfico gerado no repositório.
