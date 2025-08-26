@@ -26,14 +26,14 @@ Este projeto apresenta a aplicação de Regressão Linear e Regressão Lasso sob
 Resultados da Regressão Linear
 Variável	Coeficiente
 Intercept	-37.0233
-MedInc	0.4487
-HouseAge	0.0097
-AveRooms	-0.1233
-AveBedrms	0.7831
-Population	-0.000002
-AveOccup	-0.0035
-Latitude	-0.4198
-Longitude	-0.4337
+MedInc       0.448675
+HouseAge     0.009724
+AveRooms    -0.123323
+AveBedrms    0.783145
+Population  -0.000002
+AveOccup    -0.003526
+Latitude    -0.419792
+Longitude   -0.433708
 
 MSE (Mean Squared Error): 0.5559
 
